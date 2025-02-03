@@ -8,7 +8,7 @@ int main(){
 
     prod = num1 * num2;
 
-    printf("Product: %f");
+    printf("Product: %f" , prod);
 
     return 0;
 }
