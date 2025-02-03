@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
 
-    char str[5] a;
+    char str[5];
 
-    scanf("%s", &a);
+    scanf("%s", &str);
 
-    printf("You entered: %s", a);
+    printf("You entered: %s", str);
 
     return 0;
 }
