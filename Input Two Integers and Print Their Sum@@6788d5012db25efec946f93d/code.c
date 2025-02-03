@@ -9,7 +9,7 @@ int main(){
     printf("enter the valus of b: ");
     scanf("%d" , &b);
 
-    printf("sum: ")
+    printf("sum: ");
     scanf("%d" , &sum);
 
     retunr 0;
