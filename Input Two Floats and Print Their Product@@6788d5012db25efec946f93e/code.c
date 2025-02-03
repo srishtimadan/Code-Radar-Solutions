@@ -7,7 +7,7 @@ int main(){
 
     prod = num1*num2;
 
-    printf("Product: %f" , prod);
+    printf("Product: %.2f" , prod);
 
     return 0;
 }
