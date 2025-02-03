@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 int main(){
-    int a , b , c;
-    c = a + b;
+    int a , b , sum;
+    
     printf("enter the value of a:  ");
     scnaf("%d",&a);
 
     printf("enter the value of b:  ");
     scanf("%d",&b);
 
-    printf("sum: ");
-    scanf("%d",&c);
+    sum = a + b;
+
+    printf("sum: " , a ,b , sum);
 
     return 0;
 }
