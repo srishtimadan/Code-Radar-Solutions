@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
 
-    double a;
+    double num;
 
-    scanf("%lf",&a);
+    scanf("%lf",&num);
 
-    printf("You entered: %lf\n",a);
+    printf("You entered: %lf\n",num);
 
     return 0;
 }
