@@ -2,9 +2,9 @@
 #define PI = 3.14159 
 
 int main(){
-    float a ,area;
+    float radius ,area;
 
-    scanf("%f", &a);
+    scanf("%f", &radius);
 
     area = pi * radius * radius;
 
