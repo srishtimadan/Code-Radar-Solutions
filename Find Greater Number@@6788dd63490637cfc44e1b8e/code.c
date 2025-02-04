@@ -2,11 +2,11 @@
 
 int main(){
     int a,b;
-    
+
     if (a>b){
-        printf("a is greater: %d");
+        printf("%d");
     } else if (b>a){
-        printf("b is greater: %d");
+        printf("%d");
     } else {
         printf("none");
     }
