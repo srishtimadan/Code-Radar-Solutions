@@ -1,12 +1,12 @@
 #include <stdio.h>
 float main(){
-    float a, b, c;
+    float a,b,c;
     printf("");
-    scanf("%f", &a);
+    scanf("%f",&a);
     printf("");
-    scanf("%f", &b);
+    scanf("%f",&b);
     printf("");
-    scanf("%f",%c);
+    scanf("%f",&c);
     float avg = (a+b+c)/3.0;
     printf("Average: %.2f\n", avg);
     return 0;
