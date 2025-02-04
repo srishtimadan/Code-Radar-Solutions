@@ -6,7 +6,7 @@ int main(){
 
     scanf("%f", &radius);
 
-    area = pi * radius * radius;
+    area = PI * radius * radius;
 
     printf("Area: %.2f\n");
 
