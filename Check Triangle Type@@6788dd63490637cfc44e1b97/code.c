@@ -6,7 +6,7 @@ int main(){
     if (a = b, b = c, c = a){
         printf("Euilateral");
     }
-    else if(a=b, b=a, c!=a, c!=b){
+    else if(a=b, b=a, c!=a){
         printf("Isosceles");
     }
     else {
