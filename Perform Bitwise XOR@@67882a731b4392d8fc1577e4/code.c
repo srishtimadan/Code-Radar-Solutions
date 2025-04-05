@@ -5,7 +5,7 @@ int main(){
     scanf("%d %d", &a, &b);
 
     int result = a ^ b;
-    scanf("%d", result);
+    printf("%d", result);
 
     return 0;
 }
