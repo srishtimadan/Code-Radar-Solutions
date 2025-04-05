@@ -7,7 +7,7 @@ int main(){
     if (a & 1){
         printf ("Set\n", a);
     } else {
-        printf ("Not\n", a);
+        printf ("Not Set\n", a);
     }
 
     return 0;
