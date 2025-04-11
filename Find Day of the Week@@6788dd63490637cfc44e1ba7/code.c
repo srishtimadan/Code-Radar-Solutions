@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    int n;
-    scanf("%d", &n);
+    int day;
+    scanf("%d", &day);
     
-    if (n>=1 && n<= 7){
+    if (day>=1 && day<= 7){
         if (day == 1){
         printf("Monday\n");
     }
