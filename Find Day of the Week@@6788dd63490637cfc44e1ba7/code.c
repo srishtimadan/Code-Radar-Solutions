@@ -7,23 +7,26 @@ int main(){
     if (day == 1){
         printf("Monday");
     }
-    if (day == 2){
+    else if (day == 2){
         printf("Tuesday");
     }
-    if (day == 3){
+    else if (day == 3){
         printf("Wednesday");
     }
-    if (day == 4){
+    else if (day == 4){
         printf("Thursday");
     }
-    if (day == 5){
+    else if (day == 5){
         printf("Friday");
     }
-    if (day == 6){
+    else if (day == 6){
         printf("Saturday");
     }
-    if (day == 7){
+    else if (day == 7){
         printf("Sunday");
+    }
+    else {
+        printf("Invalid");
     }
     return 0;
 }
