@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int day;
-    printf(" ");
+    printf("Enter the day: ");
     scanf("%d", &day);
 
     if (day == 1){
