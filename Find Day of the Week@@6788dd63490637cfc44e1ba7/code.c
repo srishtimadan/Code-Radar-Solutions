@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(){
-    int day;
-    printf("Enter the day: ");
-    scanf("%d", &day);
-
-    if (day == 1){
+    int n;
+    scanf("%d", &n);
+    
+    if (n>=1 && n<= 7){
+        if (day == 1){
         printf("Monday\n");
     }
     else if (day == 2){
@@ -27,6 +27,7 @@ int main(){
     }
     else {
         printf("Invalid\n");
+    }
     }
     return 0;
 }
