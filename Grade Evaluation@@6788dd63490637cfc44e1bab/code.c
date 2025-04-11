@@ -5,22 +5,22 @@ int main(){
     scanf(" %c", &grade);
 
     if (grade == 'A'){
-        printf("Excellent\n");
+        printf("Excellent");
     }
     else if (grade == 'B'){
-        printf("Good\n");
+        printf("Good");
     }
     else if (grade == 'C'){
-        printf("Average\n");
+        printf("Average");
     }
     else if (grade == 'D'){
-        printf("Below Average\n");
+        printf("Below Average");
     }
     else if (grade == 'F'){
-        printf("Fail\n");
+        printf("Fail");
     }
     else {
-        printf("Invalid Grade\n");
+        printf("Invalid Grade");
     }
     return 0;
 }
