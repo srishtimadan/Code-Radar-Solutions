@@ -5,10 +5,10 @@ int main(){
     scanf("%d", &n);
 
     if (n>=1 && n <= 100){
-        printf("In Range")
+        printf("In Range");
     }
     else{
-        printf("Out of Range")
+        printf("Out of Range");
     }
     return 0;
 }
