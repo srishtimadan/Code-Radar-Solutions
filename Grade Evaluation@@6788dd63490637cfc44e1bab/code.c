@@ -2,24 +2,23 @@
 
 int main(){
     char grade;
-    scanf(" %c", &grade);
-
+    scanf("%c", &grade);
     switch(grade){
         case 'A' :
-        printf("Excellent");
-        break ;
+            printf("Excellent");
+            break ;
         case 'B' :
-        printf("Good");
-        break ;
+            printf("Good");
+            break ;
         case 'C' :
-        printf("Average");
-        break ;
+            printf("Average");
+            break ;
         case 'D' :
-        printf("Below Average");
-        break ;
+            printf("Below Average");
+            break ;
         case 'F' :
-        printf("Fail");
-        break ;
+            printf("Fail");
+            break ;
     }
     return 0;
 }
