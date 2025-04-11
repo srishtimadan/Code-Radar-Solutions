@@ -1,4 +1,4 @@
-#include <sdtio.h>
+#include <stdio.h>
 
 int main(){
     int num1, num2;
@@ -11,7 +11,7 @@ int main(){
         printf("First");
     }
     else {
-        printf("Second")
+        printf("Second");
     }
     return 0;
 }
